@@ -1,0 +1,52 @@
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    --redChill: #c23e16;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.terms .terms_header{
+ background: rgb(131,58,180);
+background: linear-gradient(353deg, rgba(131,58,180,1) 0%, rgba(232,6,6,1) 0%, rgba(252,210,69,1) 100%);
+font-family: "Nosifer";
+font-size: 2rem;
+padding: 10rem 4rem;
+text-shadow: 2px 2px 4px black;
+text-align: center;
+color:aliceblue;
+}
+
+.terms .terms_header header{
+   width:100%;
+}
+
+.terms .terms_info{
+padding:4rem;
+}
+
+.terms .terms_info>h3{
+    font-weight:700;
+    color: var(--redChill);
+
+}
+
+h3{
+color:var(--redChill);
+}
+
+
+
+@media only screen and (max-width:540px){
+ .terms .terms_info{
+padding:3rem;
+} 
+}
